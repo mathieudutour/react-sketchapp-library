@@ -3,15 +3,23 @@
   "bundleVersion": 1,
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "my-command-identifier",
-      "script": "./my-command.js"
+      "name": "⚙️ Generate Library",
+      "identifier": "react-sketch-library-example",
+      "script": "./sketch-library.js",
+      "handler": "generateLibrary"
+    },
+    {
+      "name": "👁 Render Library",
+      "identifier": "render",
+      "script": "./sketch-library.js",
+      "handler": "renderLibrary"
     }
   ],
   "menu": {
     "title": "react-sketch-library",
     "items": [
-      "my-command-identifier"
+      "react-sketch-library-example",
+      "render"
     ]
   }
 }
