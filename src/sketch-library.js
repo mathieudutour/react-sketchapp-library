@@ -68,6 +68,8 @@ export function generateLibrary (context) {
   saveDocument(document, path)
   closeDocument(document)
   addLibrary(path)
+
+  context.document.showMessage('Library added! 🙌')
 };
 
 export function renderLibrary (context) {
