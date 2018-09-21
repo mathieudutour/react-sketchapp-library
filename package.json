@@ -49,7 +49,7 @@
     "react-dom": "^15.6.2",
     "react-native": "^0.49.3",
     "react-primitives": "^0.4.3",
-    "react-sketchapp": "^1.0.0-beta.5",
+    "react-sketchapp": "^2.0.0",
     "react-test-renderer": "^15.6.2"
   }
 }
