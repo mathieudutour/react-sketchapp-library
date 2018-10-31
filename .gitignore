@@ -5,6 +5,8 @@ plugin.sketchplugin/
 node_modules
 .npm
 npm-debug.log
+package-lock.json
+yarn.lock
 
 # mac
 .DS_Store
